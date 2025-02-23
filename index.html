@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Alura</title>
+  </head>
+  <body id="inicio">
+
+
+<!-- Cabeçalho -->
+<header class="cabecalho">
+  <nav class="cabecalho__menu">
+    
+    <!-- Início separado do menu hambúrguer -->
+    <ul class="cabecalho__menu__lista--fixa">
+      <li><a class="cabecalho__menu__link" href="#inicio">Início</a></li>
+    </ul>
+
+    <!-- Checkbox para ativar o menu hambúrguer -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Itens do Menu (que ficam dentro do hambúrguer no mobile) -->
+    <ul class="cabecalho__menu__lista">
+      <li><a class="cabecalho__menu__link" href="#plataforma">Plataforma</a></li>
+      <li><a class="cabecalho__menu__link" href="#metodologia">Metodologia</a></li>
+      <li><a class="cabecalho__menu__link" href="#catalogo">Catálogo</a></li>
+      <li><a class="cabecalho__menu__link" href="#depoimentos">Depoimentos</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <!-- Seção Principal -->
+    <main>
+      <!-- Apresentação -->
+      <section class="secao secão--principal">
+        <div class="secao--conteudo--inicio">
+          <h1 class="titulo">
+            Aprenda <span class="texto-azul">HTML</span> e
+            <span class="texto-azul">CSS</span> com a
+            <strong>Alura</strong>
+          </h1>
+
+          <h2 class="subtitulo">
+            Dê o primeiro passo na programação! Aprenda a desenvolver páginas
+            web do zero com a Alura.
+          </h2>
+
+          <a
+            class="botao--primario"
+            href="https://www.alura.com.br/compra/ultra/"
+            target="_blank"
+            ><strong>Plano Ultra</strong> por 12x de R$ 209,00</a
+          >
+          <a
+            class="botao--secundario"
+            href="https://www.alura.com.br/compra/plus/"
+            target="_blank"
+            >Assinar somente o Alura+</a
+          >
+          <p class="texto--aviso">
+            O preço pode variar caso a assinatura seja feita em outros planos.
+          </p>
+        </div>
+
+        <img class="secao--imagem-principal" src="./img/Professores.png" alt="Foto dos três instrutores do curso: Guilherme Lima, Mônica Mazzochi Hillman e Rafaella Ballerini." />
+      </section>
+
+      <!-- Plataforma -->
+      <section id="plataforma" class="secao secao--centraliza">
+        <img
+          class="secao--imagem"
+          src="./img/Plataformas.png"
+          alt="Plataforma da Alura, em um celular e um monitor"
+        />
+        <div>
+          <h1 class="secao--titulo">
+            Explore a Plataforma da Alura e Transforme Seu Futuro!
+          </h1>
+
+          <p class="secao--texto">
+            A <strong>Alura</strong> é a maior plataforma de ensino em
+            tecnologia do Brasil, oferecendo uma experiência completa de
+            aprendizado para quem deseja ingressar ou se aprimorar no mundo da
+            programação, design, dados e muito mais.
+          </p>
+
+          <p class="secao--texto">
+            Com uma metodologia dinâmica e prática, você aprende no seu ritmo,
+            com <strong>cursos interativos</strong>, projetos reais e um
+            <strong>suporte exclusivo da comunidade</strong>. Além disso, a
+            Alura está sempre atualizada com as
+            <strong>tecnologias mais inovadoras do mercado</strong>, garantindo
+            que seu conhecimento esteja sempre em alta.
+          </p>
+
+          <p class="secao--texto">
+            Seja você iniciante ou profissional experiente, a Alura tem o curso
+            certo para acelerar sua carreira!
+          </p>
+
+          <h2 class="secao--subtitulo">Destaques da plataforma:</h2>
+          <ul class="secao--lista">
+            <li class="secao--texto">
+              Mais de <strong>1.400 cursos</strong> atualizados constantemente
+            </li>
+            <li class="secao--texto">
+              <strong>Projetos práticos</strong> para aplicar o conhecimento na
+              prática
+            </li>
+            <li class="secao--texto">
+              <strong>Comunidade ativa</strong> para tirar dúvidas e trocar
+              experiências
+            </li>
+            <li class="secao--texto">
+              <strong>Certificados reconhecidos</strong> pelo mercado de
+              trabalho
+            </li>
+            <li class="secao--texto">
+              Acesso pelo <strong>computador, tablet e celular</strong> para
+              estudar onde quiser
+            </li>
+          </ul>
+
+          <p class="cta">
+            <strong
+              >Comece sua jornada agora e conquiste novas oportunidades!</strong
+            >
+          </p>
+        </div>
+      </section>
+
+      <!-- Metodologia -->
+      <section id="metodologia" class="secao secao--centraliza">
+        <div>
+          <h1 class="secao--titulo">
+            Aprenda de Forma Inteligente e no Seu Ritmo!
+          </h1>
+
+          <p class="secao--texto">
+            Na <strong>Alura</strong>, o aprendizado vai além das video aulas!
+            Nossa metodologia combina
+            <strong>teoria, prática e suporte</strong> para garantir uma
+            experiência completa. Em cada curso, você terá acesso a
+            <strong>materiais de leitura complementares</strong>, atividades
+            interativas, <strong>desafios práticos</strong> para testar seus
+            conhecimentos e <strong>projetos reais</strong> que simulam o dia a
+            dia do mercado. Além disso, você conta com a
+            <strong>Luri, a inteligência artificial da Alura</strong>, que
+            acompanha seu progresso, recomenda conteúdos e responde dúvidas,
+            tornando sua jornada de estudos ainda mais eficiente.
+          </p>
+
+          <!-- Luri -->
+          <h2 class="secao--subtitulo">Inteligência Artificial ao Seu Lado</h2>
+
+          <ul class="secao--lista">
+            <li class="secao--texto">
+              Tirar dúvidas sobre os cursos e conteúdos;
+            </li>
+            <li class="secao--texto">
+              Receber recomendações personalizadas com base no seu progresso;
+            </li>
+            <li class="secao--texto">
+              Acelerar seu aprendizado com dicas e materiais extras.
+            </li>
+          </ul>
+
+          <a
+            class="botao--primario botao--terceiro"
+            href="https://www.alura.com.br/compra/ultra/"
+            target="_blank"
+            >Assine o ComboUtra</a
+          >
+        </div>
+
+        <img class="secao--imagem2" src="./img/Tela Alura.png" alt="Print" />
+      </section>
+
+      <!-- Catalogo -->
+
+      <section id="catalogo" class="secao secao--centraliza">
+        <img class="secao--imagem" src="./img/tecnologia.png" alt="" />
+
+        <div class="catalogo--icones">
+          <h1 class="secao--titulo">
+            Domine HTML e CSS e Crie Sites Profissionais!
+          </h1>
+
+          <p class="secao--texto">
+            Aprenda a estruturar páginas web com HTML e a estilizar com CSS,
+            seguindo boas práticas de desenvolvimento. Com um passo a passo
+            didático, você entenderá como criar sites responsivos que se adaptam
+            a diferentes telas, utilizando Flexbox e Grid.
+          </p>
+
+          <h2 class="secao--subtitulo">No curso, você irá:</h2>
+
+          <ul class="secao--lista">
+            <li class="secao--texto">
+              Construir páginas bem organizadas com HTML semântico;
+            </li>
+          </ul>
+
+          <ul class="secao--lista">
+            <li class="secao--texto">
+              Aplicar estilos modernos e personalizados com CSS;
+            </li>
+          </ul>
+
+          <ul class="secao--lista">
+            <li class="secao--texto">
+              Aprender responsividade para que seu site funcione em qualquer
+              dispositivo;
+            </li>
+          </ul>
+
+          <ul class="secao--lista">
+            <li class="secao--texto">
+              Criar layouts profissionais e interativos para aprimorar a
+              experiência do usuário.
+            </li>
+          </ul>
+
+          <p class="cta">
+            <strong
+              >Comece agora e transforme suas ideias em realidade com a
+              Alura!</strong
+            >
+          </p>
+        </div>
+      </section>
+
+      <!-- Depoimentos -->
+
+      <section id="depoimentos" class="secao--depoimentos secao--centraliza">
+        <div>
+          <h1 class="secao--titulo">O que Nossos Alunos Dizem?</h1>
+
+          <p class="secao--texto secao--depoimentos-texto">
+            Confira os depoimentos de quem transformou sua carreira aprendendo
+            CSS, HTML e Flexbox na Alura!
+          </p>
+        </div>
+
+        <ul class="secao--depoimentos-lista">
+          <li class="depoimento">
+            <img
+              class="secao--depoimentos-img"
+              src="./img/Perfil1.png"
+              alt="Foto de perfil de uma mulher branca de cabelos castanhos, e seu gato."
+            />
+            <h2 class="depoimento--nome">Mariana Souza:</h2>
+
+            <p class="depoimento--texto">
+              Sempre tive dificuldade em entender CSS e deixar meus sites
+              bonitos, mas os cursos da Alura mudaram tudo! Aprendi sobre
+              tipografia, cores, espaçamentos e animações de uma forma muito
+              clara e prática. Os desafios me ajudaram a fixar os conceitos e
+              hoje consigo criar layouts modernos e responsivos sem medo. Se
+              você quer dominar o CSS, recomendo demais!
+            </p>
+          </li>
+
+          <li class="depoimento">
+            <img
+              class="secao--depoimentos-img"
+              src="./img/Perfil2.png"
+              alt="Foto de perfil de uma mulher branca de cabelos castanhos, e seu gato."
+            />
+            <h2 class="depoimento--nome">Rafael Oliveira:</h2>
+
+            <p class="depoimento--texto">
+              Sempre achei que sabia HTML, mas depois dos cursos da Alura
+              percebi que um código bem estruturado faz toda a diferença.
+              Aprendi sobre HTML semântico, acessibilidade e boas práticas que
+              tornam um site muito mais profissional. Agora, meus projetos são
+              mais organizados e otimizados para SEO. A didática dos professores
+              é incrível e fez toda a diferença no meu aprendizado!
+            </p>
+          </li>
+
+          <li class="depoimento">
+            <img
+              class="secao--depoimentos-img"
+              src="./img/Perfil3.png"
+              alt="Foto de perfil de uma mulher branca de cabelos castanhos, e seu gato."
+            />
+            <h2 class="depoimento--nome">Beatriz Lima:</h2>
+
+            <p class="depoimento--texto">
+              O curso de Flexbox da Alura foi um divisor de águas para mim!
+              Antes, eu sofria para alinhar elementos e deixar os sites
+              responsivos. Depois das aulas, entendi como distribuir elementos,
+              criar grids flexíveis e deixar os componentes adaptáveis a
+              qualquer tela. Agora, economizo muito tempo na hora de criar
+              layouts e sinto que finalmente tenho controle sobre o CSS. Valeu,
+              Alura!"
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape secao--centraliza">
+      <div>
+        <h1 class="secao--titulo">alura</h1>
+        <h2 class="subtitulo--rodape">Rede Ssciais:</h2>
+
+        <div class="rodape--redes">
+          <!-- Instagram -->
+          <a href="https://instagram.com/aluraonline" target="_blank">
+            <img
+              class="icone--rodape"
+              src="./img/instagram.png"
+              alt="Ícone do Instagram"
+            />
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/AluraCursosOnline/" target="_blank">
+            <img
+              class="icone--rodape"
+              src="./img/facebook.png"
+              alt="Ícone do Facebook"
+            />
+          </a>
+
+          <!-- Twitter -->
+          <a href="https://twitter.com/aluraonline" target="_blank">
+            <img
+              class="icone--rodape"
+              src="./img/twitter.png"
+              alt="Ícone do Twitter"
+            />
+          </a>
+
+          <!-- YouTube -->
+          <a
+            href="https://www.youtube.com/user/aluracursosonline"
+            target="_blank"
+          >
+            <img
+              class="icone--rodape"
+              src="./img/youtube.png"
+              alt="Ícone do YouTube"
+            />
+          </a>
+
+          <!-- TikTok -->
+          <a href="https://www.tiktok.com/@alura" target="_blank">
+            <img
+              class="icone--rodape"
+              src="./img/tik-tok.png"
+              alt="Ícone do TikTok"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- Aplicativos -->
+      <div class="rodape--caixa">
+        <h2 class="subtitulo--rodape">Aplicativos:</h2>
+
+        <div class="rodape--redes">
+          <!-- Google Play -->
+          <a href="https://play.google.com/store/apps/alura" target="_blank">
+            <img
+              class="icone--rodape"
+              src="./img/google-play.png"
+              alt="Ícone do Google Play"
+            />
+          </a>
+
+          <!-- iOS -->
+          <a
+            href="https://apps.apple.com/us/app/alura/id123456789"
+            target="_blank"
+          >
+            <img
+              class="icone--rodape"
+              src="./img/IOS.png"
+              alt="Ícone da App Store"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- Desenvolvedor -->
+      <div class="rodape--caixa rodape--dev">
+        <h2 class="subtitulo--rodape">Desenvolvido por:</h2>
+
+        <a
+          class="rodape--dev-link"
+          href="https://www.linkedin.com/in/fabricio-de-oliveira-bimbi-516719223/"
+          target="_blank"
+        >
+          <img
+            class="icone--rodape"
+            src="./img/linkedin.png"
+            alt="Ícone do LinkedIn"
+          />
+          <span>Fabricio de Oliveira Bimbi</span>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
