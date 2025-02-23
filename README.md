@@ -28,7 +28,7 @@ O projeto original apresentava o **Alura Língua**, destacando suas vantagens. D
 ## 📌 Links  
 
 🔗 **Projeto Original:** [Alura Plus - Versão Original](https://aluraplus-three.vercel.app)  
-🔗 **Minha Versão:** [🔗 Link do Meu Projeto](INSIRA_AQUI_O_LINK_DO_SEU_PROJETO)  
+🔗 **Minha Versão:** [Link do Meu Projeto](https://fabraoliveira.github.io/Alura-HTML-CSS/#inicio)  
 
 ---
 
